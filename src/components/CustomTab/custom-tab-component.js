@@ -21,6 +21,7 @@ const CustomTab = ({ label, selected, ...otherProps }) => {
 			label={label}
 			{...otherProps}
 			sx={{
+				fontSize: "12px",
 				color: selected ? "#2196f3" : "#ffffff",
 			}}
 		/>

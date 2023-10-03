@@ -101,6 +101,14 @@ const AboutMe = () => {
 					</Grid>
 				</Stack>
 			</Stack>
+			<Stack marginTop={"40px"} spacing={4}>
+				<Typography sx={{ fontSize: "28px", fontWeight: "600" }}>
+					My Skills
+				</Typography>
+				<Stack>
+					
+				</Stack>
+			</Stack>
 		</Stack>
 	);
 };

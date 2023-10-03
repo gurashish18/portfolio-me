@@ -1,9 +1,9 @@
 /** @format */
 
-import { Stack, Typography } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import React from "react";
 
-const ProjectCard = ({ image, title, link, description, domain }) => {
+const ProjectCard = ({ image, title, link, domain }) => {
 	return (
 		<Stack
 			gap={2}
@@ -44,6 +44,18 @@ const ProjectCard = ({ image, title, link, description, domain }) => {
 				>
 					{domain}
 				</Typography>
+				<Button
+					href={link}
+					target="_blank"
+					disableRipple
+					sx={{
+						backgroundColor: "#2196f3",
+						color: "#FFFFFF",
+						marginTop: "10px",
+					}}
+				>
+					View
+				</Button>
 			</Stack>
 		</Stack>
 	);
