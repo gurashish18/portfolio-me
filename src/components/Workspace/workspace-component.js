@@ -8,6 +8,7 @@ import { Stack } from "@mui/material";
 import CustomTab from "../CustomTab/custom-tab-component";
 import AboutMe from "../../pages/about";
 import Projects from "../../pages/project";
+import Resume from "../../pages/resume";
 
 const Workspace = () => {
 	const [value, setValue] = React.useState("1");
@@ -94,6 +95,7 @@ const Workspace = () => {
 				</Stack>
 			</Stack>
 			<Stack p={4}>{value === "1" && <AboutMe />}</Stack>
+			<Stack p={4}>{value === "2" && <Resume />}</Stack>
 			<Stack p={4}>{value === "3" && <Projects />}</Stack>
 		</Stack>
 	);
