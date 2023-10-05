@@ -6,6 +6,7 @@ import InterestCard from "../components/interest-card-component";
 import LanguageIcon from "@mui/icons-material/Language";
 import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
+import { skills } from "../data/data";
 
 const AboutMe = () => {
 	return (
@@ -106,7 +107,31 @@ const AboutMe = () => {
 					My Skills
 				</Typography>
 				<Stack>
-					
+					<Grid container gap={4}>
+						{skills.map((skill) => (
+							<Grid item xs={6} sm={4} md={2} key={skill.id}>
+								{
+									<img
+										alt={skill.name}
+										src={skill.img}
+										height="120px"
+										width={"100%"}
+									/>
+								}
+								<Typography
+									marginTop={1}
+									sx={{
+										color: "hsl(0, 0%, 84%)",
+										lineHeight: 1.6,
+										fontWeight: 300,
+										textAlign: "center",
+									}}
+								>
+									{skill.name}
+								</Typography>
+							</Grid>
+						))}
+					</Grid>
 				</Stack>
 			</Stack>
 		</Stack>
