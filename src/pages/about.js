@@ -10,7 +10,7 @@ import { skills } from "../data/data";
 
 const AboutMe = () => {
 	return (
-		<Stack>
+		<Stack p={4}>
 			<Stack spacing={4}>
 				<Typography
 					sx={{

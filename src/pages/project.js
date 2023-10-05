@@ -12,7 +12,7 @@ import news from "../assets/news.jpeg";
 
 const Projects = () => {
 	return (
-		<Stack>
+		<Stack p={4}>
 			<Stack>
 				<Grid container spacing={2}>
 					<Grid item xs={12} sm={6}>

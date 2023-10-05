@@ -5,7 +5,7 @@ import { Stack, Grid } from "@mui/material";
 
 const Certifications = () => {
 	return (
-		<Stack>
+		<Stack p={4}>
 			<Stack>
 				<Grid container spacing={2}>
 					<Grid item xs={12} sm={6}></Grid>

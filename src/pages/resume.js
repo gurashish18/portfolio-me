@@ -14,7 +14,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 
 const Resume = () => {
 	return (
-		<Stack>
+		<Stack p={4}>
 			<Stack>
 				<Stack direction={"row"} alignItems={"center"}>
 					<IconButton>
