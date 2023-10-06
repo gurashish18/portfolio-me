@@ -16,15 +16,15 @@ function App() {
 			alignItems={"center"}
 		>
 			<Stack
-				width={"80%"}
-				direction={"row"}
 				gap={2}
-				sx={{ minHeight: "100vh" }}
+				width="80%"
+				minHeight={"100vh"}
+				direction={{ md: "row", xs: "column" }}
 			>
-				<Stack sx={{ flex: 0.2, position: "sticky" }}>
+				<Stack sx={{ flex: { md: 0.2, sm: 1 } }}>
 					<SideBar />
 				</Stack>
-				<Stack sx={{ flex: 0.8 }}>
+				<Stack sx={{ flex: { md: 0.8, sm: 1 } }}>
 					<Workspace />
 				</Stack>
 			</Stack>

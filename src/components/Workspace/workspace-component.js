@@ -49,7 +49,15 @@ const Workspace = () => {
 				color: "hsl(0, 0%, 98%)",
 			}}
 		>
-			<Stack direction={"row"} width={"100%"}>
+			<Stack
+				direction={{
+					lg: "row",
+					md: "column-reverse",
+					sm: "column-reverse",
+					xs: "column-reverse",
+				}}
+				width={"100%"}
+			>
 				<Stack p={2} width={"100%"} sx={{ flex: 0.2 }} alignItems={"center"}>
 					<Typography
 						sx={{ fontSize: "32px", fontWeight: "600", ...underlineStyle }}

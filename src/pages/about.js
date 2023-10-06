@@ -66,7 +66,7 @@ const AboutMe = () => {
 				</Typography>
 				<Stack>
 					<Grid container spacing={2}>
-						<Grid item xs={12} sm={6}>
+						<Grid item xs={12} sm={12} md={12} lg={6}>
 							<InterestCard
 								icon={
 									<LanguageIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
@@ -77,7 +77,7 @@ const AboutMe = () => {
 								}
 							/>
 						</Grid>
-						<Grid item xs={12} sm={6}>
+						<Grid item xs={12} sm={12} md={12} lg={6}>
 							<InterestCard
 								icon={
 									<MobileFriendlyIcon
@@ -88,7 +88,7 @@ const AboutMe = () => {
 								description="Developed Flutter application during internship at Licious for migrating Swift and Kotlin codebase."
 							/>
 						</Grid>
-						<Grid item xs={12} sm={6}>
+						<Grid item xs={12} sm={12} md={12} lg={6}>
 							<InterestCard
 								icon={
 									<LightbulbIcon
@@ -107,7 +107,7 @@ const AboutMe = () => {
 					My Skills
 				</Typography>
 				<Stack>
-					<Grid container gap={4}>
+					<Grid container gap={4} justifyContent={"center"}>
 						{skills.map((skill) => (
 							<Grid item xs={6} sm={4} md={2} key={skill.id}>
 								{
