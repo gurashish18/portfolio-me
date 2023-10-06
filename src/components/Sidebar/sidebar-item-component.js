@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { Stack, IconButton, Typography } from "@mui/material";
+import { Stack, IconButton, Typography, Link } from "@mui/material";
 
 const SidebarItem = ({ item }) => {
 	return (
@@ -16,12 +16,21 @@ const SidebarItem = ({ item }) => {
 				<IconButton>{item.icon}</IconButton>
 			</Stack>
 			<Stack>
-				<Typography sx={{ fontSize: "13px", color: "#D6D6D6B2" }}>
+				<Typography sx={{ fontSize: "15px", color: "#D6D6D6B2" }}>
 					{item.title}
 				</Typography>
-				<Typography sx={{ fontSize: "14px", fontWeight: 300 }}>
-					{item.description}
-				</Typography>
+				{item.clickable ? (
+					<Link
+						href={item.link}
+						sx={{ fontSize: "15px", fontWeight: 300, textDecoration: "none" }}
+					>
+						{item.description}
+					</Link>
+				) : (
+					<Typography sx={{ fontSize: "15px", fontWeight: 300 }}>
+						{item.description}
+					</Typography>
+				)}
 			</Stack>
 		</Stack>
 	);

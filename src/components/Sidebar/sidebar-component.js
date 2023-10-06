@@ -28,9 +28,13 @@ const SideBar = () => {
 					sx={{ height: "250px", width: "250px" }}
 				/>
 				<Typography sx={{ fontSize: "26px" }}>Gurashish Singh Gill</Typography>
-				<Typography sx={{ fontSize: "14px" }}>
-					Software Engineer @Incedo Inc.
-				</Typography>
+				<Stack>
+					<Typography
+						sx={{ fontSize: "15px", fontWeight: 600, textAlign: "center" }}
+					>
+						Software Engineer @Incedo Inc.
+					</Typography>
+				</Stack>
 			</Stack>
 			<Divider variant="fullWidth" sx={{ bgcolor: "hsl(0, 0%, 22%)" }} />
 			<Stack spacing={4}>

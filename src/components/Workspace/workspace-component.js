@@ -90,7 +90,6 @@ const Workspace = () => {
 								value="4"
 							/>
 							<CustomTab label={"Extra"} selected={value === "5"} value="5" />
-							<CustomTab label={"Contact"} selected={value === "6"} value="6" />
 						</Tabs>
 					</Box>
 				</Stack>

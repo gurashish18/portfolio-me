@@ -3,31 +3,57 @@ import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import CodeIcon from "@mui/icons-material/Code";
 
 export const sidebar_items = [
 	{
 		id: 1,
 		title: "EMAIL",
-		icon: <EmailIcon style={{ fill: "#2196f3" }} fontSize="24px" />,
+		icon: <EmailIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
 		description: "gillgurashish171@gmail.com",
+		clickable: true,
+		link: "mailto:gillgurashish171@gmail.com",
 	},
 	{
 		id: 2,
-		title: "LOCATION",
-		icon: <LocationOnIcon style={{ fill: "#2196f3" }} fontSize="24px" />,
-		description: "Gurugram, India",
+		title: "PHONE",
+		icon: <LocalPhoneIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		description: "+91-9729756418",
+		clickable: false,
+		link: "#",
 	},
 	{
 		id: 3,
-		title: "LINKEDIN",
-		icon: <LinkedInIcon style={{ fill: "#2196f3" }} fontSize="24px" />,
-		description: "view",
+		title: "LOCATION",
+		icon: <LocationOnIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		description: "Gurugram, India",
+		clickable: false,
+		link: "#",
 	},
 	{
 		id: 4,
-		title: "GITHUB",
-		icon: <GitHubIcon style={{ fill: "#2196f3" }} fontSize="24px" />,
+		title: "LINKEDIN",
+		icon: <LinkedInIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
 		description: "view",
+		clickable: true,
+		link: "https://www.linkedin.com/in/gurashish-singh-gill",
+	},
+	{
+		id: 5,
+		title: "GITHUB",
+		icon: <GitHubIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		description: "view",
+		clickable: true,
+		link: "https://github.com/gurashish18",
+	},
+	{
+		id: 6,
+		title: "LEETCODE",
+		icon: <CodeIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		description: "view",
+		clickable: true,
+		link: "https://leetcode.com/gurashish_gill/",
 	},
 ];
 
@@ -155,5 +181,11 @@ export const education = [
 		school: "Sri Guru Gobind Singh Sr. Sec. School",
 		duration: "2017 - 2019",
 		course: "Higher Secondary Education | 87.56%",
+	},
+	{
+		id: 3,
+		school: "St. Joseph School",
+		duration: "2005 - 2017",
+		course: "Primary and Secondary Education | 10.00 CGPA",
 	},
 ];
