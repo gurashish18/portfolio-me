@@ -23,6 +23,8 @@ const CustomTab = ({ label, selected, ...otherProps }) => {
 			sx={{
 				fontSize: "12px",
 				color: selected ? "#2196f3" : "#ffffff",
+				minWidth: "fit-content",
+				flex: 1,
 			}}
 		/>
 	);

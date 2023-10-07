@@ -18,9 +18,16 @@ const Resume = () => {
 			<Stack>
 				<Stack direction={"row"} alignItems={"center"}>
 					<IconButton>
-						<WorkIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
+						<WorkIcon
+							style={{ fill: "#2196f3", fontSize: { lg: 32, md: 28 } }}
+						/>
 					</IconButton>
-					<Typography sx={{ fontSize: "24px", fontWeight: "600" }}>
+					<Typography
+						sx={{
+							fontSize: { lg: "24px", md: "20px", sm: "18px" },
+							fontWeight: "600",
+						}}
+					>
 						Experience
 					</Typography>
 				</Stack>
@@ -43,7 +50,7 @@ const Resume = () => {
 									<Stack key={item.id}>
 										<Typography
 											sx={{
-												fontSize: "20px",
+												fontSize: { lg: "20px", md: "18px", sm: "15px" },
 												fontWeight: 600,
 												lineHeight: 1.3,
 												marginBottom: "7px",
@@ -53,7 +60,7 @@ const Resume = () => {
 										</Typography>
 										<Typography
 											sx={{
-												fontSize: "15px",
+												fontSize: { lg: "15px", md: "13px", sm: "12px" },
 												color: "#2196f3",
 												fontWeight: 400,
 												lineHeight: 1.6,
@@ -66,7 +73,13 @@ const Resume = () => {
 												{item.description.map((des) => (
 													<li>
 														<Typography
-															sx={{ fontSize: "15px" }}
+															sx={{
+																fontSize: {
+																	lg: "15px",
+																	md: "13px",
+																	sm: "12px",
+																},
+															}}
 															key={des.id}
 															textAlign="justify"
 														>
@@ -88,7 +101,12 @@ const Resume = () => {
 					<IconButton>
 						<MenuBookIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
 					</IconButton>
-					<Typography sx={{ fontSize: "24px", fontWeight: "600" }}>
+					<Typography
+						sx={{
+							fontSize: { lg: "24px", md: "20px", sm: "18px" },
+							fontWeight: "600",
+						}}
+					>
 						Education
 					</Typography>
 				</Stack>
@@ -111,7 +129,7 @@ const Resume = () => {
 									<Stack key={item.id}>
 										<Typography
 											sx={{
-												fontSize: "20px",
+												fontSize: { lg: "20px", md: "18px", sm: "15px" },
 												fontWeight: 600,
 												lineHeight: 1.3,
 												marginBottom: "7px",
@@ -121,7 +139,7 @@ const Resume = () => {
 										</Typography>
 										<Typography
 											sx={{
-												fontSize: "15px",
+												fontSize: { lg: "15px", md: "13px", sm: "12px" },
 												color: "#2196f3",
 												fontWeight: 400,
 												lineHeight: 1.6,
@@ -134,6 +152,11 @@ const Resume = () => {
 												color: "hsl(0, 0%, 84%)",
 												lineHeight: 1.6,
 												fontWeight: 300,
+												fontSize: {
+													lg: "15px",
+													md: "13px",
+													sm: "12px",
+												},
 											}}
 										>
 											{item.course}

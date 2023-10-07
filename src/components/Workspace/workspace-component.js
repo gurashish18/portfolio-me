@@ -76,10 +76,13 @@ const Workspace = () => {
 				>
 					<Box sx={{ width: "100%" }}>
 						<Tabs
+							width="100%"
 							value={value}
 							onChange={handleChange}
 							aria-label="tab"
-							variant="fullWidth"
+							variant="scrollable"
+							scrollButtons
+							allowScrollButtonsMobile
 						>
 							<CustomTab
 								label={"About Me"}
