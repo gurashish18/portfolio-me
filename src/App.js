@@ -9,7 +9,7 @@ function App() {
 	return (
 		<Stack
 			width={"100%"}
-			p={4}
+			p={{ lg: 4, md: 4, sm: 2, xs: 1 }}
 			paddingTop={8}
 			paddingBottom={8}
 			sx={{ backgroundColor: "#101010" }}
@@ -17,7 +17,7 @@ function App() {
 		>
 			<Stack
 				gap={2}
-				width="80%"
+				width={{ lg: "80%", md: "80%", sm: "90%", xs: "100%" }}
 				minHeight={"100vh"}
 				direction={{ md: "row", xs: "column" }}
 			>

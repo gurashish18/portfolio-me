@@ -60,7 +60,11 @@ const Workspace = () => {
 			>
 				<Stack p={2} width={"100%"} sx={{ flex: 0.2 }} alignItems={"center"}>
 					<Typography
-						sx={{ fontSize: "32px", fontWeight: "600", ...underlineStyle }}
+						sx={{
+							fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
+							fontWeight: "600",
+							...underlineStyle,
+						}}
 					>
 						{displayTitle()}
 					</Typography>

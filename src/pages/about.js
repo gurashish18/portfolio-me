@@ -10,14 +10,15 @@ import { skills } from "../data/data";
 
 const AboutMe = () => {
 	return (
-		<Stack p={4}>
+		<Stack p={{ lg: 4, md: 4, sm: 2, xs: 1 }}>
 			<Stack spacing={4}>
 				<Typography
 					sx={{
-						fontSize: "15px",
+						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
 						color: "hsl(0, 0%, 84%)",
 						fontWeight: 300,
 						lineHeight: "1.6",
+						textAlign: "justify",
 					}}
 				>
 					I am a highly skilled and motivated Software Engineer with a strong
@@ -29,10 +30,11 @@ const AboutMe = () => {
 				</Typography>
 				<Typography
 					sx={{
-						fontSize: "15px",
+						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
 						color: "hsl(0, 0%, 84%)",
 						fontWeight: 300,
 						lineHeight: "1.6",
+						textAlign: "justify",
 					}}
 				>
 					Outside of my professional life, I have a variety of interests. I
@@ -45,10 +47,11 @@ const AboutMe = () => {
 				</Typography>
 				<Typography
 					sx={{
-						fontSize: "15px",
+						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
 						color: "hsl(0, 0%, 84%)",
 						fontWeight: 300,
 						lineHeight: "1.6",
+						textAlign: "justify",
 					}}
 				>
 					As a Software Engineer, I am passionate about creating innovative
@@ -61,7 +64,13 @@ const AboutMe = () => {
 				</Typography>
 			</Stack>
 			<Stack marginTop={"40px"} spacing={4}>
-				<Typography sx={{ fontSize: "28px", fontWeight: "600" }}>
+				<Typography
+					sx={{
+						fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
+						fontWeight: "600",
+						textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+					}}
+				>
 					My Interests
 				</Typography>
 				<Stack>
@@ -69,7 +78,17 @@ const AboutMe = () => {
 						<Grid item xs={12} sm={12} md={12} lg={6}>
 							<InterestCard
 								icon={
-									<LanguageIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
+									<LanguageIcon
+										style={{
+											fill: "#2196f3",
+											fontSize: {
+												lg: "28px",
+												md: "26px",
+												sm: "22px",
+												xs: "20px",
+											},
+										}}
+									/>
 								}
 								title="Web Development"
 								description={
@@ -81,7 +100,15 @@ const AboutMe = () => {
 							<InterestCard
 								icon={
 									<MobileFriendlyIcon
-										style={{ fill: "#2196f3", fontSize: "32px" }}
+										style={{
+											fill: "#2196f3",
+											fontSize: {
+												lg: "28px",
+												md: "26px",
+												sm: "22px",
+												xs: "20px",
+											},
+										}}
 									/>
 								}
 								title="Mobile Development"
@@ -92,7 +119,15 @@ const AboutMe = () => {
 							<InterestCard
 								icon={
 									<LightbulbIcon
-										style={{ fill: "#2196f3", fontSize: "32px" }}
+										style={{
+											fill: "#2196f3",
+											fontSize: {
+												lg: "28px",
+												md: "26px",
+												sm: "22px",
+												xs: "20px",
+											},
+										}}
 									/>
 								}
 								title="Machine Learning"
@@ -103,7 +138,13 @@ const AboutMe = () => {
 				</Stack>
 			</Stack>
 			<Stack marginTop={"40px"} spacing={4}>
-				<Typography sx={{ fontSize: "28px", fontWeight: "600" }}>
+				<Typography
+					sx={{
+						fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
+						fontWeight: "600",
+						textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+					}}
+				>
 					My Skills
 				</Typography>
 				<Stack>

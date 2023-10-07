@@ -25,12 +25,24 @@ const SideBar = () => {
 				<Avatar
 					alt="user-avatar"
 					src={Me}
-					sx={{ height: "250px", width: "250px" }}
+					height="250px"
+					sx={{
+						height: { lg: "250px", md: "200px", sm: "150px", xs: "120px" },
+						width: { lg: "250px", md: "200px", sm: "150px", xs: "120px" },
+					}}
 				/>
-				<Typography sx={{ fontSize: "26px" }}>Gurashish Singh Gill</Typography>
+				<Typography
+					sx={{ fontSize: { lg: "26px", md: "24px", sm: "20px", xs: "17px" } }}
+				>
+					Gurashish Singh Gill
+				</Typography>
 				<Stack>
 					<Typography
-						sx={{ fontSize: "15px", fontWeight: 600, textAlign: "center" }}
+						sx={{
+							fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
+							fontWeight: 600,
+							textAlign: "center",
+						}}
 					>
 						Software Engineer @Incedo Inc.
 					</Typography>

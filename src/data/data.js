@@ -10,7 +10,14 @@ export const sidebar_items = [
 	{
 		id: 1,
 		title: "EMAIL",
-		icon: <EmailIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<EmailIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "gillgurashish171@gmail.com",
 		clickable: true,
 		link: "mailto:gillgurashish171@gmail.com",
@@ -18,7 +25,14 @@ export const sidebar_items = [
 	{
 		id: 2,
 		title: "PHONE",
-		icon: <LocalPhoneIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<LocalPhoneIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "+91-9729756418",
 		clickable: false,
 		link: "#",
@@ -26,7 +40,14 @@ export const sidebar_items = [
 	{
 		id: 3,
 		title: "LOCATION",
-		icon: <LocationOnIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<LocationOnIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "Gurugram, India",
 		clickable: false,
 		link: "#",
@@ -34,7 +55,14 @@ export const sidebar_items = [
 	{
 		id: 4,
 		title: "LINKEDIN",
-		icon: <LinkedInIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<LinkedInIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "view",
 		clickable: true,
 		link: "https://www.linkedin.com/in/gurashish-singh-gill",
@@ -42,7 +70,14 @@ export const sidebar_items = [
 	{
 		id: 5,
 		title: "GITHUB",
-		icon: <GitHubIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<GitHubIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "view",
 		clickable: true,
 		link: "https://github.com/gurashish18",
@@ -50,7 +85,14 @@ export const sidebar_items = [
 	{
 		id: 6,
 		title: "LEETCODE",
-		icon: <CodeIcon style={{ fill: "#2196f3", fontSize: "28px" }} />,
+		icon: (
+			<CodeIcon
+				style={{
+					fill: "#2196f3",
+					fontSize: { lg: "28px", md: "26px", sm: "22px", xs: "20px" },
+				}}
+			/>
+		),
 		description: "view",
 		clickable: true,
 		link: "https://leetcode.com/gurashish_gill/",
