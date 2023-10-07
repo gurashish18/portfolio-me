@@ -12,9 +12,24 @@ const Extras = () => {
 			<Stack>
 				<Stack direction={"row"} alignItems={"center"}>
 					<IconButton>
-						<StarIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
+						<StarIcon
+							style={{
+								fill: "#2196f3",
+								fontSize: {
+									lg: "28px",
+									md: "26px",
+									sm: "22px",
+									xs: "20px",
+								},
+							}}
+						/>
 					</IconButton>
-					<Typography sx={{ fontSize: "24px", fontWeight: "600" }}>
+					<Typography
+						sx={{
+							fontSize: { lg: "24px", md: "22px", sm: "20px", xs: "20px" },
+							fontWeight: "600",
+						}}
+					>
 						Position of Responsibilities
 					</Typography>
 				</Stack>
@@ -48,9 +63,24 @@ const Extras = () => {
 			<Stack marginTop={"40px"}>
 				<Stack direction={"row"} alignItems={"center"}>
 					<IconButton>
-						<SportsEsportsIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
+						<SportsEsportsIcon
+							style={{
+								fill: "#2196f3",
+								fontSize: {
+									lg: "28px",
+									md: "26px",
+									sm: "22px",
+									xs: "20px",
+								},
+							}}
+						/>
 					</IconButton>
-					<Typography sx={{ fontSize: "24px", fontWeight: "600" }}>
+					<Typography
+						sx={{
+							fontSize: { lg: "24px", md: "22px", sm: "20px", xs: "20px" },
+							fontWeight: "600",
+						}}
+					>
 						My Hobbies
 					</Typography>
 				</Stack>

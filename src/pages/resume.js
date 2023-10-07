@@ -41,7 +41,7 @@ const Resume = () => {
 					</IconButton>
 					<Typography
 						sx={{
-							fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
+							fontSize: { lg: "24px", md: "22px", sm: "20px", xs: "20px" },
 							fontWeight: "600",
 						}}
 					>
@@ -150,7 +150,7 @@ const Resume = () => {
 					</IconButton>
 					<Typography
 						sx={{
-							fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
+							fontSize: { lg: "24px", md: "22px", sm: "20px", xs: "20px" },
 							fontWeight: "600",
 						}}
 					>

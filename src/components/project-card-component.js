@@ -28,7 +28,12 @@ const ProjectCard = ({ image, title, link, domain }) => {
 					sx={{
 						marginBottom: "7px",
 						color: "hsl(0, 0%, 98%)",
-						fontSize: "18px",
+						fontSize: {
+							lg: "18px",
+							md: "16px",
+							sm: "15px",
+							xs: "15px",
+						},
 						fontWeight: 600,
 					}}
 				>
@@ -38,7 +43,7 @@ const ProjectCard = ({ image, title, link, domain }) => {
 					sx={{
 						color: "hsl(0, 0%, 84%)",
 						lineHeight: 1.6,
-						fontSize: "15px",
+						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
 						fontWeight: 300,
 					}}
 				>
@@ -52,6 +57,7 @@ const ProjectCard = ({ image, title, link, domain }) => {
 						backgroundColor: "#2196f3",
 						color: "#FFFFFF",
 						marginTop: "10px",
+						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
 					}}
 				>
 					View
