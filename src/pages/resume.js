@@ -16,22 +16,39 @@ const Resume = () => {
 	return (
 		<Stack p={4}>
 			<Stack>
-				<Stack direction={"row"} alignItems={"center"}>
+				<Stack
+					direction={"row"}
+					alignItems={"center"}
+					justifyContent={{
+						lg: "start",
+						md: "start",
+						sm: "center",
+						xs: "center",
+					}}
+				>
 					<IconButton>
 						<WorkIcon
-							style={{ fill: "#2196f3", fontSize: { lg: 32, md: 28 } }}
+							style={{
+								fill: "#2196f3",
+								fontSize: {
+									lg: "28px",
+									md: "26px",
+									sm: "22px",
+									xs: "20px",
+								},
+							}}
 						/>
 					</IconButton>
 					<Typography
 						sx={{
-							fontSize: { lg: "24px", md: "20px", sm: "18px" },
+							fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
 							fontWeight: "600",
 						}}
 					>
 						Experience
 					</Typography>
 				</Stack>
-				<Stack marginTop={2} marginLeft={7}>
+				<Stack marginTop={2} marginLeft={{ lg: 7, md: 5, sm: 2, xs: 1 }}>
 					<Timeline
 						sx={{
 							[`& .${timelineItemClasses.root}:before`]: {
@@ -50,7 +67,12 @@ const Resume = () => {
 									<Stack key={item.id}>
 										<Typography
 											sx={{
-												fontSize: { lg: "20px", md: "18px", sm: "15px" },
+												fontSize: {
+													lg: "20px",
+													md: "18px",
+													sm: "15px",
+													xs: "14px",
+												},
 												fontWeight: 600,
 												lineHeight: 1.3,
 												marginBottom: "7px",
@@ -60,7 +82,12 @@ const Resume = () => {
 										</Typography>
 										<Typography
 											sx={{
-												fontSize: { lg: "15px", md: "13px", sm: "12px" },
+												fontSize: {
+													lg: "15px",
+													md: "13px",
+													sm: "12px",
+													xs: "12px",
+												},
 												color: "#2196f3",
 												fontWeight: 400,
 												lineHeight: 1.6,
@@ -78,6 +105,7 @@ const Resume = () => {
 																	lg: "15px",
 																	md: "13px",
 																	sm: "12px",
+																	xs: "12px",
 																},
 															}}
 															key={des.id}
@@ -97,20 +125,43 @@ const Resume = () => {
 				</Stack>
 			</Stack>
 			<Stack marginTop={5}>
-				<Stack direction={"row"} alignItems={"center"}>
+				<Stack
+					direction={"row"}
+					alignItems={"center"}
+					justifyContent={{
+						lg: "start",
+						md: "start",
+						sm: "center",
+						xs: "center",
+					}}
+				>
 					<IconButton>
-						<MenuBookIcon style={{ fill: "#2196f3", fontSize: "32px" }} />
+						<MenuBookIcon
+							style={{
+								fill: "#2196f3",
+								fontSize: {
+									lg: "28px",
+									md: "26px",
+									sm: "22px",
+									xs: "20px",
+								},
+							}}
+						/>
 					</IconButton>
 					<Typography
 						sx={{
-							fontSize: { lg: "24px", md: "20px", sm: "18px" },
+							fontSize: { lg: "32px", md: "30px", sm: "26px", xs: "24px" },
 							fontWeight: "600",
 						}}
 					>
 						Education
 					</Typography>
 				</Stack>
-				<Stack spacing={4} marginTop={2} marginLeft={7}>
+				<Stack
+					spacing={4}
+					marginTop={2}
+					marginLeft={{ lg: 7, md: 5, sm: 2, xs: 1 }}
+				>
 					<Timeline
 						sx={{
 							[`& .${timelineItemClasses.root}:before`]: {
@@ -129,7 +180,12 @@ const Resume = () => {
 									<Stack key={item.id}>
 										<Typography
 											sx={{
-												fontSize: { lg: "20px", md: "18px", sm: "15px" },
+												fontSize: {
+													lg: "20px",
+													md: "18px",
+													sm: "15px",
+													xs: "14px",
+												},
 												fontWeight: 600,
 												lineHeight: 1.3,
 												marginBottom: "7px",
@@ -139,7 +195,12 @@ const Resume = () => {
 										</Typography>
 										<Typography
 											sx={{
-												fontSize: { lg: "15px", md: "13px", sm: "12px" },
+												fontSize: {
+													lg: "15px",
+													md: "13px",
+													sm: "12px",
+													xs: "12px",
+												},
 												color: "#2196f3",
 												fontWeight: 400,
 												lineHeight: 1.6,
@@ -156,6 +217,7 @@ const Resume = () => {
 													lg: "15px",
 													md: "13px",
 													sm: "12px",
+													xs: "12px",
 												},
 											}}
 										>
