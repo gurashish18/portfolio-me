@@ -21,12 +21,12 @@ const AboutMe = () => {
 						textAlign: "justify",
 					}}
 				>
-					I am a highly skilled and motivated Software Engineer with a strong
-					background in Computer Science. I completed my education at Thapar
-					Institute of Engineering and Technology, where I graduated with a CGPA
-					of 8.50. Throughout my academic journey, I developed a comprehensive
-					understanding of software development principles, which I have further
-					refined through my professional experiences with Incedo Inc.
+					I am a proficient and motivated Software Engineer with a solid
+					foundation in Computer Science. I earned my degree from Thapar
+					Institute of Engineering and Technology with a CGPA of 8.50.
+					Throughout my academic journey, I gained a deep understanding of
+					software development principles, which I have continued to enhance
+					during my tenure at Incedo Inc.
 				</Typography>
 				<Typography
 					sx={{
@@ -37,30 +37,14 @@ const AboutMe = () => {
 						textAlign: "justify",
 					}}
 				>
-					Outside of my professional life, I have a variety of interests. I
-					enjoy playing cricket, watching F1 races, going on treks, and working
-					out at the gym. Additionally, I have actively participated in
-					extracurricular activities during my college days, serving as the Vice
-					Lead Ambassador of TICC and taking on the role of Placement
-					Coordinator. These experiences have further enhanced my leadership and
-					organizational abilities.
-				</Typography>
-				<Typography
-					sx={{
-						fontSize: { lg: "15px", md: "13px", sm: "12px", xs: "12px" },
-						color: "hsl(0, 0%, 84%)",
-						fontWeight: 300,
-						lineHeight: "1.6",
-						textAlign: "justify",
-					}}
-				>
-					As a Software Engineer, I am passionate about creating innovative
-					solutions and pushing the boundaries of technology. I am constantly
-					seeking opportunities to expand my knowledge and stay up-to-date with
-					the latest advancements in the field. With my strong technical skills,
-					collaborative mindset, and dedication to excellence, I am confident in
-					my ability to contribute to the success of any software development
-					team.
+					Throughout my academic journey, my passion for research-driven
+					exploration became more evident. I am currently actively pursuing
+					research-based master's opportunities in computer science to further
+					expand my expertise and make meaningful contributions to the latest
+					developments in the field. With my robust technical skills,
+					collaborative approach, and unwavering commitment to excellence, I am
+					confident in my ability to make significant contributions to the
+					success of any software development team.
 				</Typography>
 			</Stack>
 			<Stack marginTop={"40px"} spacing={4}>
@@ -78,6 +62,25 @@ const AboutMe = () => {
 						<Grid item xs={12} sm={12} md={12} lg={6}>
 							<InterestCard
 								icon={
+									<LightbulbIcon
+										style={{
+											fill: "#2196f3",
+											fontSize: {
+												lg: "28px",
+												md: "26px",
+												sm: "22px",
+												xs: "20px",
+											},
+										}}
+									/>
+								}
+								title="Machine Learning"
+								description="Applied machine learning techniques extensively in personal projects and research, demonstrating a strong passion for practical and innovative applications."
+							/>
+						</Grid>
+						<Grid item xs={12} sm={12} md={12} lg={6}>
+							<InterestCard
+								icon={
 									<LanguageIcon
 										style={{
 											fill: "#2196f3",
@@ -92,7 +95,7 @@ const AboutMe = () => {
 								}
 								title="Web Development"
 								description={
-									"Built websites during my internship at Apple and Yash Technologies using HTML, CSS, Knockout JS, Oracle Jet and SpringBoot."
+									"Extensively developed web applications using React.js, applying this expertise effectively in the industry."
 								}
 							/>
 						</Grid>
@@ -112,26 +115,7 @@ const AboutMe = () => {
 									/>
 								}
 								title="Mobile Development"
-								description="Developed Flutter application during internship at Licious for migrating Swift and Kotlin codebase."
-							/>
-						</Grid>
-						<Grid item xs={12} sm={12} md={12} lg={6}>
-							<InterestCard
-								icon={
-									<LightbulbIcon
-										style={{
-											fill: "#2196f3",
-											fontSize: {
-												lg: "28px",
-												md: "26px",
-												sm: "22px",
-												xs: "20px",
-											},
-										}}
-									/>
-								}
-								title="Machine Learning"
-								description="Developed Flutter application during internship at Licious for migrating Swift and Kotlin codebase."
+								description="Developed various Mobile Applications using React Native for a E-commerce company."
 							/>
 						</Grid>
 					</Grid>

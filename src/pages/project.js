@@ -17,18 +17,12 @@ const Projects = () => {
 				<Grid container spacing={2}>
 					<Grid item xs={12} sm={6}>
 						<ProjectCard
-							image={easyBuyandSellImage}
-							title="EasyBuyandSell"
-							domain="Web Development"
-							link="https://github.com/gurashish18/easybuyandsellfrontend"
-						/>
-					</Grid>
-					<Grid item xs={12} sm={6}>
-						<ProjectCard
-							image={chatAppImage}
-							title="Chat Application"
-							domain="Web Development"
-							link="https://github.com/gurashish18/chatAppFrontend"
+							image={
+								"https://zenkit.com/wp-content/uploads/2021/05/Smart-Note-Taking-for-Research-Paper-Writing.jpg"
+							}
+							title="Early Prediction of Breast Cancer using Multilevel Ensemble Model"
+							domain="Research Paper"
+							link="https://drive.google.com/file/d/1EqT7GnvKRLSxQJIxQglGxHI0EDRIRk8i/view?usp=sharing"
 						/>
 					</Grid>
 					<Grid item xs={12} sm={6}>
@@ -47,6 +41,23 @@ const Projects = () => {
 							link="https://github.com/gurashish18/status_200"
 						/>
 					</Grid>
+					<Grid item xs={12} sm={6}>
+						<ProjectCard
+							image={easyBuyandSellImage}
+							title="EasyBuyandSell"
+							domain="Web Development"
+							link="https://github.com/gurashish18/easybuyandsellfrontend"
+						/>
+					</Grid>
+					<Grid item xs={12} sm={6}>
+						<ProjectCard
+							image={chatAppImage}
+							title="Chat Application"
+							domain="Web Development"
+							link="https://github.com/gurashish18/chatAppFrontend"
+						/>
+					</Grid>
+
 					<Grid item xs={12} sm={6}>
 						<ProjectCard
 							image={bwork}

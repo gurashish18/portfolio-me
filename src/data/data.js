@@ -182,7 +182,17 @@ export const experience = [
 			{
 				id: 1,
 				title:
-					"Working on SpringBoot Batch processes for estimating IC++ Transactions that a merchant faces in the Cost Engine team.",
+					"Proficient in React and RxJS, specializing in frontend development for financial applications.",
+			},
+			{
+				id: 2,
+				title:
+					"Demonstrated expertise in debugging, ensuring rapid issue resolution and an uninterrupted user experience.",
+			},
+			{
+				id: 3,
+				title:
+					"Optimized web application performance, resulting in a 20% improvement in load times and enhanced rendering efficiency.",
 			},
 		],
 	},
