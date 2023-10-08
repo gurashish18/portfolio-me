@@ -10,6 +10,7 @@ import AboutMe from "../../pages/about";
 import Projects from "../../pages/project";
 import Resume from "../../pages/resume";
 import Extras from "../../pages/extra";
+import Certifications from "../../pages/certification";
 
 const Workspace = () => {
 	const [value, setValue] = React.useState("1");
@@ -112,6 +113,7 @@ const Workspace = () => {
 			{value === "1" && <AboutMe />}
 			{value === "2" && <Resume />}
 			{value === "3" && <Projects />}
+			{value === "4" && <Certifications />}
 			{value === "5" && <Extras />}
 		</Stack>
 	);

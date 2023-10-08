@@ -18,9 +18,9 @@ export const sidebar_items = [
 				}}
 			/>
 		),
-		description: "gillgurashish171@gmail.com",
+		description: "gurashishgill171@gmail.com",
 		clickable: true,
-		link: "mailto:gillgurashish171@gmail.com",
+		link: "mailto:gurashishgill171@gmail.com",
 	},
 	{
 		id: 2,
@@ -229,5 +229,29 @@ export const education = [
 		school: "St. Joseph School",
 		duration: "2005 - 2017",
 		course: "Primary and Secondary Education | 10.00 CGPA",
+	},
+];
+
+export const certifications = [
+	{
+		id: 1,
+		title: "Incedo Internship : Jan 2023 - July 2023",
+		image: "https://www.incedoinc.com/wp-content/uploads/incedo-logo.png",
+		link: "https://drive.google.com/file/d/1Tzfyvlz9D71HU-fzzLcGpiF1D_JKeVPw/view?usp=sharing",
+	},
+	{
+		id: 2,
+		title: "Microsoft Azure AZ-900 : Certificate for Completion",
+		image:
+			"https://blogs.sap.com/wp-content/uploads/2021/05/azure-fundamentals-600x600-1.png",
+		link: "https://drive.google.com/file/d/1Y7KHyvN34d2KWf5qHFoP0p5Z18bFY6O6/view?usp=sharing",
+	},
+	{
+		id: 3,
+		title:
+			"Early Prediction of Breast Cancer using Multilevel Ensemble Model : Certificate of Presentation",
+		image:
+			"https://zenkit.com/wp-content/uploads/2021/05/Smart-Note-Taking-for-Research-Paper-Writing.jpg",
+		link: "https://drive.google.com/file/d/1QFa8e4I0mSYb7IHVhvwQZ7465QlQHPev/view?usp=sharing",
 	},
 ];
