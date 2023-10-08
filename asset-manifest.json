@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-me/static/css/main.10dd0a01.css",
-    "main.js": "/portfolio-me/static/js/main.c7c6a5a8.js",
+    "main.js": "/portfolio-me/static/js/main.cf4d0e47.js",
     "static/media/easybuyandsell.png": "/portfolio-me/static/media/easybuyandsell.bb133e0e0480d1cd4636.png",
     "static/media/chatapp.jpeg": "/portfolio-me/static/media/chatapp.7bd3c428bdb06075b26a.jpeg",
     "static/media/stockprice.png": "/portfolio-me/static/media/stockprice.0e277a910d5ade9813c0.png",
@@ -11,10 +11,10 @@
     "static/media/me.jpeg": "/portfolio-me/static/media/me.ccf18858a17bd936fe42.jpeg",
     "index.html": "/portfolio-me/index.html",
     "main.10dd0a01.css.map": "/portfolio-me/static/css/main.10dd0a01.css.map",
-    "main.c7c6a5a8.js.map": "/portfolio-me/static/js/main.c7c6a5a8.js.map"
+    "main.cf4d0e47.js.map": "/portfolio-me/static/js/main.cf4d0e47.js.map"
   },
   "entrypoints": [
     "static/css/main.10dd0a01.css",
-    "static/js/main.c7c6a5a8.js"
+    "static/js/main.cf4d0e47.js"
   ]
 }
